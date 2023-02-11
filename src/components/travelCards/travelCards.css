@@ -1,0 +1,22 @@
+.card {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.card-text {
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-text h2 {
+   margin-bottom: 10px;
+}
+
+.card-text p a {
+    color: darkgrey;
+}

@@ -1,0 +1,26 @@
+
+header {
+    color: rgb(240, 235, 235);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px; 
+    background-color: rgba(7, 7, 14, 0.911);
+}
+
+.nav-item {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item h4 {
+    color:rgb(83, 223, 241);
+}
+
+.nav-img {
+    width: 40px;
+}

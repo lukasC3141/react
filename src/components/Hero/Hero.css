@@ -1,0 +1,20 @@
+.img-hero {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.img-div-hero {
+    width: 70%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.article-hero {
+    margin: 50px 20px;
+}
+
+.article-hero h1 {
+    line-height: 2;
+}

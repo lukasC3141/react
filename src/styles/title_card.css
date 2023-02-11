@@ -1,0 +1,48 @@
+.title-card {
+        
+    background-color: rgb(32, 19, 41);
+    color: rgb(210, 210, 211);
+    padding: 50px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.title-card p {
+    max-width: 300px;
+    margin-left: 10%;
+}
+
+
+@media screen and (max-width: 650px) {
+    .title-card {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 800px) {
+
+    .title-card img {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1500px){
+    .title-card img {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .title-card img {
+        width: 500px;
+    }
+    
+    .title-card p {
+        max-width: 500px;
+        margin-left: 15%;
+    }
+
+    
+}

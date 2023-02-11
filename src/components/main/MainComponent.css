@@ -1,0 +1,15 @@
+.main {
+    margin: 30px;
+    line-height: 2;
+}
+
+ul li::marker{
+    color: rgb(83, 223, 241);
+}
+
+.bg-logo {
+    width: 300px;
+    position: absolute;
+    right: -150px;
+    top: 100px;
+}

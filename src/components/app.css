@@ -1,0 +1,11 @@
+.cards {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.card-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

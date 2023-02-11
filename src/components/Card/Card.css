@@ -1,0 +1,38 @@
+.card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
+.card-inst-img {
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.card-inst {
+    line-height: 1.5;
+}
+
+.card-pos {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+}
+
+.sold {
+    padding: 3px 5px;
+    color:rgb(22, 23, 24);
+    background-color: azure;
+    font-weight: 700;
+    align-self: flex-start;
+    border-radius: 5px;
+
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    
+}
