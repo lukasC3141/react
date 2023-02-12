@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/http//:lukasc3141.github.io/react/static/css/main.ae57e4ed.css",
-    "main.js": "/http//:lukasc3141.github.io/react/static/js/main.6b71d143.js",
-    "index.html": "/http//:lukasc3141.github.io/react/index.html",
-    "main.ae57e4ed.css.map": "/http//:lukasc3141.github.io/react/static/css/main.ae57e4ed.css.map",
-    "main.6b71d143.js.map": "/http//:lukasc3141.github.io/react/static/js/main.6b71d143.js.map"
+    "main.css": "/react/static/css/main.ae57e4ed.css",
+    "main.js": "/react/static/js/main.6b71d143.js",
+    "index.html": "/react/index.html",
+    "main.ae57e4ed.css.map": "/react/static/css/main.ae57e4ed.css.map",
+    "main.6b71d143.js.map": "/react/static/js/main.6b71d143.js.map"
   },
   "entrypoints": [
     "static/css/main.ae57e4ed.css",
