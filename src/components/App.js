@@ -1,29 +1,28 @@
 import React from 'react'
-import MemeHeader from './meme-header/MemeHeader'
-import MemeMain from './memeMain/MemeMain'
 import "./app.css"
+import Header from './webHeader/header'
+import TitleCard from './webTitleCard/titleCard'
+
 
 const App = () => {
 
-  	// const CardElment = data.map((card) => {
-    //   return <Card 
-    //       key={card.id} //for identifying every card
-    //       item={card}
-    //     />
-    // })
 
-    // const TravelCardsElement = TravelData.map((card) => {
-    //   return <TravelCards 
-    //     id={card.id}
-    //     card={card}
-    //     />
-    // })
+     // set width of screen
+     const [width, setWidth] = React.useState(window.innerWidth)
+     React.useEffect(() => {
+         console.log("reset effect")
+         const handleResize = () => setWidth(window.innerWidth);
+         window.addEventListener('resize', handleResize);
+         return () => {
+             window.removeEventListener('resize', handleResize);
+         };
+     }, [])
 
 
     return (
       <>
-        <MemeHeader />
-        <MemeMain darkMode={false} />
+        <Header width={width}/>
+        <TitleCard width={width}/>
       </>
     )
   }

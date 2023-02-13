@@ -3,7 +3,7 @@
     line-height: 2;
 }
 
-ul li::marker{
+main ul li::marker{
     color: rgb(83, 223, 241);
 }
 
