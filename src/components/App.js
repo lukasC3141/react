@@ -2,6 +2,7 @@ import React from 'react'
 import "./app.css"
 import Header from './webHeader/header'
 import TitleCard from './webTitleCard/titleCard'
+import Card from './webCard/card'
 
 
 const App = () => {
@@ -22,7 +23,8 @@ const App = () => {
     return (
       <>
         <Header width={width}/>
-        <TitleCard width={width}/>
+        <TitleCard/>
+        <Card />
       </>
     )
   }

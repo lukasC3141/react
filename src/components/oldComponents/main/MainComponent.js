@@ -1,6 +1,6 @@
 import React from "react"
 import "./MainComponent.css"
-import Joke from "../joke/joke"
+import Joke from "../../joke/joke"
 
 const MainCpomponent = () => {
     

@@ -1,5 +1,5 @@
 import React from "react" 
-import MainMeme from "../data/data-meme"
+import MainMeme from "../../data/data-meme"
 import "./MemeMain.css"
 
 
