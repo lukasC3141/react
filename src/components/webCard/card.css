@@ -1,10 +1,10 @@
 
 .card-item:nth-child(2n) {
-    background: linear-gradient(rgb(78, 144, 199), rgb(168, 39, 219));
+    background: var(--wb-lin-grad-violet);
 }
 
 .card-item:nth-child(2n-1) {
-    background: linear-gradient(rgb(26, 194, 116), rgb(27, 195, 207));
+    background: var(--wb-lin-grad-green);
 }
 
 h3 {

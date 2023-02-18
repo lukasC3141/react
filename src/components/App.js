@@ -1,9 +1,9 @@
 import React from 'react'
 import "./app.css"
+import { Routes, Route } from 'react-router-dom'
 import Header from './webHeader/header'
-import TitleCard from './webTitleCard/titleCard'
-import Card from './webCard/card'
-import cardData from './data/cardData'
+import MainWebsite from './websites/main'
+import WebsiteBiology from './websites/Biology'
 
 
 const App = () => {
@@ -20,16 +20,12 @@ const App = () => {
         };
     }, [])
 
-    const cardElement = cardData.map( card => <Card card={card} />)
-
-    
     return (
       <>
-        <Header width={width}/>
-        <TitleCard/>
-        <div className='card-container' >
-          {cardElement}
-        </div>  
+         <Routes>
+            <Route path='/' element={<MainWebsite width={width}/>} />  
+            <Route path='/biologie' element={<WebsiteBiology width={width} />} />
+        </Routes> 
       </>
     )
   }

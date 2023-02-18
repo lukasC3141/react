@@ -1,6 +1,6 @@
 footer {
-    background-color: rgb(44, 18, 39);
-    color: rgb(194, 166, 188);
+    background-color: var(--wb-dark-pink-color);
+    color: var(--wb-light-pink-color);
 
     display: flex;
     flex-wrap: wrap;
@@ -16,23 +16,23 @@ footer {
 
 }
 
-ul {
+.ul-footer {
     line-height: 1.5;
 
 }
 
-ul li {
+.ul-footer li {
     list-style: none;
 }
 
-h4 {
+.foot h4{
     margin-bottom: 15px;
     text-align: center;
 }
 
-li a {
+.ul-footer li a {
     text-decoration: none;
-    color: rgb(194, 166, 188);
+    color: var(--wb-light-pink-color);
     font-size: 16px;
     cursor: pointer;
 }
@@ -48,8 +48,6 @@ li a {
     justify-content: space-evenly;
 }
 
-@media screen and (min-width: 600px) {
-    li a:hover {
-        color: rgb(255, 255, 255);
-    }
+.ul-footer li a:hover {
+    color: var(--wb-better-white);
 }

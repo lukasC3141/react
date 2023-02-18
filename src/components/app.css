@@ -1,3 +1,24 @@
+:root {
+    --wb-dark-violet-color: rgb(32, 19, 41);
+    --wb-dark-pink-color: rgb(44, 18, 39);
+    --wb-pink-color: rgb(73, 30, 65);
+    --wb-light-pink-color: rgb(194, 166, 188);
+    --wb-better-light-grey: rgb(156, 156, 156);
+    --wb-better-white: rgb(210, 210, 211);
+    --wb-lin-grad-green: linear-gradient(rgb(26, 194, 116), rgb(27, 195, 207));
+    --wb-lin-grad-violet: linear-gradient(rgb(78, 144, 199), rgb(168, 39, 219));
+
+}
+
+
 body {
     background-color: rgb(240, 234, 245);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
