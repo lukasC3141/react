@@ -14,14 +14,14 @@ import React from "react"
 import  ReactDOM  from "react-dom"
 import "./global.css"
 import App from "./components/App.js"
-import { BrowserRouter } from "react-router-dom"
+import { HashRouter } from "react-router-dom"
 
 
 const Page = () => {
     return (
-    <BrowserRouter>
+    <HashRouter>
         <App />
-    </BrowserRouter>
+    </HashRouter>
     )
 }
 
