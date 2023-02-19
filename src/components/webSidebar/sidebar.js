@@ -4,12 +4,13 @@ import "./sidebar.css"
 
 function Sidebar(props) {
   
-    const [mainSidebar, setMainSidebar] = React.useState(true)
+    const [mainSidebar, setMainSidebar] = React.useState(false)
 
     const Sidebar = () => {
         setMainSidebar(oldvalue => !oldvalue)
     }
-    
+
+   
     return (
     <>
         <div className='sidebar'>

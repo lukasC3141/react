@@ -1,11 +1,12 @@
 .sidebar {
-    width: 200px;
+    width: 50%;
     background-color: var(--wb-pink-color);
     position: absolute;
+    top: 92px;
     right: 0;
-    top: 111px;
-    line-height: 3;
+    line-height: 3.5;
     border-radius: 0 0 0 20px;
+    border-left: 5px solid var(--wb-better-white);
 }
 
 .title-of-sidebar {
@@ -13,9 +14,8 @@
     line-height: 4;
     text-align: center;
     cursor: pointer;
-    
-    
 }
+
 .sidebar ul {
     margin: 15px 0;
 }
@@ -23,6 +23,7 @@
 .sidebar-link {
     color: var(--wb-better-light-grey);
     font-weight: 700;
+    margin-left: 12%;
 }
 
 .sidebar-link:hover {
@@ -30,24 +31,19 @@
     cursor: pointer;
     
 }
-
-.sidebar ul .sidebar-link {
-    margin-left: 12%;
-}
-
 .sidebar-button {
     position: absolute;
     top: 100px;
     
 }
 .alt-sidebar-link {
-    line-height: 1.3;
+    line-height: 2.2;
 }
 
 .alt-sidebar-link a{
-    margin-left: 20%;
+    margin-left: 25%;
     color: var(--wb-better-light-grey);
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .alt-sidebar-link a:hover {
@@ -55,10 +51,15 @@
     cursor: pointer;
 }
 
-@media screen and (min-width: 400px){
+
+
+@media screen and (min-width: 501px){
     .sidebar {
-        top: 50px;
+        top: 54px;
+        width: calc(120px + 12%);
     }
 }
+
+
 
 

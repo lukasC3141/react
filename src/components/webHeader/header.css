@@ -27,26 +27,38 @@
     margin-right: 10vw;
 }
 
+.list li a {
+    font-size: 1.3rem;
+}
+
 
 
 /* mobile version */
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
     .logo {
-        font-size: 1.4rem;
-        margin-bottom: 10px;
+        display: none;
     }
 
     .menu-mobile {
         background-color: var(--wb-dark-violet-color);
         line-height: 2;
-        position: absolute;
-        width: 100%;
-        top: 60px;
         left: 0;
-        margin: 0 auto;
         display: flex;
         justify-content: center;
         padding: 10px;
+        
+    }
+
+    .list {
+        margin-right: 0;
+    }
+
+    .navbar {
+        justify-content: center;
+    }
+
+    .lessons-dropdown {
+        width: 50% !important;
     }
     
 }
@@ -90,11 +102,34 @@
 }
 
 .lessons-nav li a {
-    font-weight: 600;
+    font-weight: 800;
     color: var(--wb-dark-pink-color);
+    font-size: 1.4rem;
 }
 
 .lessons-nav li a:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.lessons-dropdown {
+    width: calc(120px + 12%);
+    padding: 20px;
+    line-height: 3;
+    background-color: var(--wb-dark-violet-color);
+    position: absolute;
+    right: 0;
+    border-radius: 0 0 0 20px;
+    border-left: 5px solid var(--wb-better-white);
+    border-bottom: 5px solid var(--wb-better-white);
+}
+
+.lessons-dropdown li {
+    margin-left: 20px;
+}
+
+.lessons-dropdown li a {
+    color: var(--wb-better-white);
+    font-weight: 500;
+    font-size: 1.3rem;
 }

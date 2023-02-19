@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom'
 import Header from './webHeader/header'
 import MainWebsite from './websites/main'
 import WebsiteBiology from './websites/Biology'
+import Footer from './webFooter/footer'
 
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
             <Route path='/' element={<MainWebsite width={width}/>} />  
             <Route path='/biologie' element={<WebsiteBiology width={width} />} />
         </Routes> 
+        <Footer />
       </>
     )
   }

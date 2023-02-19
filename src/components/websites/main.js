@@ -14,9 +14,15 @@ const MainWebsite = (props) => {
 
     const cardElement = cardData.map( card => <Card card={card} />)
 
+    const [lessonsOpen, setLessonOpen] = React.useState(false)
+
+    const LessonsOpen = () => {
+        setLessonOpen(oldvalue => !oldvalue)
+    }
+
     return (
       <>  
-        <Header width={props.width}/>
+        <Header width={props.width} func={LessonsOpen} lessonsOpen={lessonsOpen}/>
           <main>
           <TitleCard/>
           <LessonsNav />
