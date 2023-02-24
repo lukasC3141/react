@@ -1,0 +1,36 @@
+.article-note {
+    margin: 100px 50px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.article-note-title {
+    font-weight: 800;
+    font-size: 2rem;
+    color: var(--wb-pink-color);
+}
+
+.notes {
+    line-height: 2;
+    max-width: 100%;
+}
+
+.notes li {
+    list-style: disc;
+}
+
+ol {
+    display: inline-table;
+    margin-left: 2rem;
+}
+
+.notes li ol li {
+    list-style:circle;
+}
+
+
+

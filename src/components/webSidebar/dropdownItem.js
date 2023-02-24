@@ -13,7 +13,7 @@ const DropdowItem = (props) => {
 
     return (
         <>
-            <li className='sidebar-link' onClick={OpenFunc} ><i class="bi bi-caret-right-fill"></i>{props.name}</li>
+            <li className='sidebar-link' onClick={OpenFunc} ><i class={ openAltlist ?"bi bi-caret-down-fill" : "bi bi-caret-right-fill" }></i>{props.name}</li>
             {openAltlist && <ul>
                 {props.altlist}
             </ul>}

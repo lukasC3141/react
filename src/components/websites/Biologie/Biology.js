@@ -1,11 +1,11 @@
 import React from 'react'
-import Header from '../webHeader/header'
-import Sidebar from '../webSidebar/sidebar'
-import dataBiologySidebar from '../data/dataBiologySidebar'
-import DropdowItem from '../webSidebar/dropdownItem'
+import Header from '../../webHeader/header'
+import Sidebar from '../../webSidebar/sidebar'
+import dataBiologySidebar from '../../data/dataBiologySidebar'
+import DropdowItem from '../../webSidebar/dropdownItem'
 import { Link } from 'react-router-dom'
-import Article from '../webArticle/article'
-
+import Article from '../../webArticle/article'
+import Footer from '../../webFooter/footer'
 
 
 const WebsiteBiology = (props) => {
@@ -29,6 +29,7 @@ const WebsiteBiology = (props) => {
         <Header func={LessonsOpen} lessonsOpen={lessonsOpen} width={props.width}/>
         <Sidebar navbar={lessonsOpen} title={"Biologie"} lists={sidebarElement}  />
         <Article />
+        <Footer />
 
       </>
     )

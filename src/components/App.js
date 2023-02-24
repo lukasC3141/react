@@ -1,15 +1,12 @@
 import React from 'react'
 import "./app.css"
 import { Routes, Route } from 'react-router-dom'
-import Header from './webHeader/header'
 import MainWebsite from './websites/main'
-import WebsiteBiology from './websites/Biology'
-import Footer from './webFooter/footer'
-
+import WebsiteBiology from './websites/Biologie/Biology'
+import BiologyBakerie2 from './websites/Biologie/BiologyBakerie2'
+import SorryBanner from './webSorryBanner/sorryBanner'
 
 const App = () => {
-
-
     // set width of screen
     const [width, setWidth] = React.useState(window.innerWidth)
     React.useEffect(() => {
@@ -26,8 +23,9 @@ const App = () => {
          <Routes>
             <Route path='/' element={<MainWebsite width={width}/>} />  
             <Route path='/biologie' element={<WebsiteBiology width={width} />} />
+            <Route path='/biologie/bakterie2' element={<BiologyBakerie2 width={width} />} />
+            <Route path='*' element={<SorryBanner />}/>
         </Routes> 
-        <Footer />
       </>
     )
   }
