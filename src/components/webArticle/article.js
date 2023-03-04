@@ -13,7 +13,7 @@ const Article = () => {
                 dolor commodi, veritatis labore ducimus voluptatibus alias architecto
                 illum dolore. Voluptatum, quae! Excepturi, itaque distinctio doloribus
                 </p>
-                <img className="article-img" src="https://picsum.photos/400/300" alt="image"></img>
+                <img className="article-img" src="https://picsum.photos/400/300" alt="with article"></img>
                 <p>
                 aperiam dolores asperiores inventore dignissimos quo? Fugiat
                 voluptatem error commodi adipisci maxime. Eius illum et animi quasi

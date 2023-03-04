@@ -1,14 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Header from '../../webHeader/header'
 import Sidebar from '../../webSidebar/sidebar'
 import DropdowItem from '../../webSidebar/dropdownItem'
 import dataBiologySidebar from '../../data/dataBiologySidebar'
-import { Link } from 'react-router-dom'
 import Footer from '../../webFooter/footer'
 import ArticleForNotes from '../../webArticle/articleForNotes'
 import {Prvoci} from '../../webArticle/ArticlesBiology'
 
-function BiologyBakerie2(props) {
+function PrvociArticle(props) {
 
     const sidebarElement = dataBiologySidebar.map( list => { 
         return (
@@ -33,4 +33,4 @@ function BiologyBakerie2(props) {
   )
 }
 
-export default BiologyBakerie2
+export default PrvociArticle

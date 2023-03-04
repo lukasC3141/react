@@ -12,7 +12,9 @@ export const Prvoci =  (
                 <li>neomezený růst</li>
             </ol></li>
         <li>nervová činnost</li>
-        <h2>cévní soustava</h2>
+
+        <h2>Cévní soustava</h2>
+        
         <li>cévy</li>
         <li>srdce 
             <ol className='circle'>
@@ -22,7 +24,7 @@ export const Prvoci =  (
             </ol></li>   
     </>)
 
-export const Prvoci2 =  (
+export const Houbovci = (
   <>
       <li>jednobuněční mnohobuneční živočichové</li>
       <li>většinou heterotrofie</li>

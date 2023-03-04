@@ -28,9 +28,20 @@ ol {
     margin-left: 2rem;
 }
 
-.notes li ol li {
+.notes h2,.notes h3, .notes h4,.notes h5, .notes h6{
+    margin: 12px 0;
+    position: relative;
+    right: 23px;
+}
+
+.notes .circle li {
     list-style:circle;
 }
+
+.notes .decimal li {
+    list-style:decimal;
+}
+
 
 
 

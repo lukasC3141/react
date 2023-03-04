@@ -8,10 +8,10 @@ const Header = (props) => {
     
    
     
-     const mobileWidth = props.width <= 400
-     const tabletWidth = props.width > 400 && props.width <= 600
-     const notebookWidth = props.width > 600 && props.width <= 1000
-     const compScreenWidth = props.width > 1000
+    //  const mobileWidth = props.width <= 400
+    //  const tabletWidth = props.width > 400 && props.width <= 600
+    //  const notebookWidth = props.width > 600 && props.width <= 1000
+    //  const compScreenWidth = props.width > 1000
 
 
     // const dropdown = () => {
@@ -30,7 +30,7 @@ const Header = (props) => {
                         <ul className="list">
                             <li><Link to="/">Úvod</Link></li>
                             <li><a href="https://github.com/lukasC3141/react">GitHub</a></li>
-                            <li onClick={props.func}><a><i class={ props.lessonsOpen ? "bi bi-caret-down-fill" : "bi bi-caret-right-fill"}></i>Předměty</a></li>
+                            <li className="lessons" onClick={props.func}><i class={ props.lessonsOpen ? "bi bi-caret-down-fill" : "bi bi-caret-right-fill"}></i>Předměty</li>
                         </ul>
                     </div>
                 </nav>

@@ -1,58 +1,54 @@
 const dataBiologySidebar = [
 {
-    name: "bakterie",
+    name: "Prvoci",
     open: true,
     altLinks: [
         {
-            altname: "bakterie2",
-            to: "/biologie/bakterie2"
+            altname: "prvoci",
+            to: "/biologie/prvoci"
         },
-        {
-            altname: "bakterie3",
-            to: "/biologie/bakterie3"
-        }
+        
     ]
 },
 {
-    name: "prvoci",
+    name: "Živočichové",
     open: true,
     altLinks: [
         {
-            altname: "prvoci2",
-            to: "/biologie/prvoci2"
+            altname: "houbovci",
+            to: "/biologie/houbovci"
         },
         {
-            altname: "prvoci33",
-            to: "/biologie/prvoci33"
-        }
-    ]
-},
-{
-    name: "živočichové",
-    open: true,
-    altLinks: [
-        {
-            altname: "živočichové2",
-            to: "/biologie/živočivćhové2"
+            altname: "žahavci",
+            to: "/biologie/žahavci"
         },
         {
-            altname: "prvoci33",
-            to: "/biologie/prvoci33"
-        }
+            altname: "ploštěnci",
+            to: "/biologie/ploštěnci"
+        },
+        {
+            altname: "hlístice",
+            to: "/biologie/hlístice"
+        },
+        {
+            altname: "měkkýši",
+            to: "/biologie/měkkýši"
+        },
+        {
+            altname: "kroužkovci",
+            to: "/biologie/kroužkovci"
+        },
+        {
+            altname: "členovci",
+            to: "/biologie/členovci"
+        },
     ]
 },
 {
     name: "člověk",
     open: true,
     altLinks: [
-        {
-            altname: "prvoci2",
-            to: "/biologie/prvoci2"
-        },
-        {
-            altname: "prvoci33",
-            to: "/biologie/prvoci33"
-        }
+        
     ]
 }
 ]

@@ -3,7 +3,7 @@ import "./app.css"
 import { Routes, Route } from 'react-router-dom'
 import MainWebsite from './websites/main'
 import WebsiteBiology from './websites/Biologie/Biology'
-import BiologyBakerie2 from './websites/Biologie/BiologyBakerie2'
+import Prvoci from './websites/Biologie/Prvoci'
 import SorryBanner from './webSorryBanner/sorryBanner'
 
 const App = () => {
@@ -23,7 +23,7 @@ const App = () => {
          <Routes>
             <Route path='/' element={<MainWebsite width={width}/>} />  
             <Route path='/biologie' element={<WebsiteBiology width={width} />} />
-            <Route path='/biologie/bakterie2' element={<BiologyBakerie2 width={width} />} />
+            <Route path='/biologie/prvoci' element={<Prvoci width={width} />} />
             <Route path='*' element={<SorryBanner />}/>
         </Routes> 
       </>
