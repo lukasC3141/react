@@ -41,7 +41,32 @@ ol {
 .notes .decimal li {
     list-style:decimal;
 }
+.red-text {
+    color: rgb(211, 0, 0);
+}
+.blue-text {
+    color: rgb(49, 78, 240);
+}
+.green-text {
+    color: rgb(24, 167, 11);
+}
+.l-green-text {
+    color: rgb(104, 229, 92);
+}
+.orange-text {
+    color: rgb(210, 140, 10)
+}
+.yellow-text {
+    color: rgb(185, 188, 4)
+}
+.f-w-600 {
+    font-weight: 600;
+}
 
+.un-txt {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
 
 
 
